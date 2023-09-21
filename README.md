@@ -16,7 +16,7 @@ python rot13.py string_1 string_2 ...
 And will give the output in the format : input_string => rot13_string<br />
 For example:
 ```bash
-cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_hyLicInt} => picoCTF{next_time_I'll_try_2_rounds_of_rot13_ulYvpVag}
+SSBMb3ZlIEhlciBfLl9fIC4uX19fIC5fX19fIC8gXy5fLiAuLi4gLg== => FFOZo3MyVRuypvOsYy9sVP4hK19sVP5sK19sVP8tKl5sYvNhYv4tYt==
 ```
 
 ### variable_rot.py
@@ -26,3 +26,11 @@ For example:
 python variable_rot.py shift string_1 string_2 ...
 ```
 And will give the output in the same format as that of rot13.py
+
+## all_rot.py
+It takes the input strings from the command that runs the Python Program. <br />
+For example:
+```bash
+python rot13.py string_1 string_2 ...
+```
+And will give the output in the same format as that of rot13.py but for all Rotations.
